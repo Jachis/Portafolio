@@ -19,7 +19,7 @@ h2 {
     font-weight: bold;
 }
 body{
-    background-color: rgb(9, 11, 12);
+    background-color: black;
     color: white;
 }
 
@@ -27,36 +27,24 @@ body{
 
 
 /* layout */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .container {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
-.col-3 {
-    width: 25%;
-    padding: 20px;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
 
 /* components */
 .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 1%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 
@@ -72,14 +60,15 @@ body{
 
 .nav-bar a {
     color: white;
-    padding-left: 50px;
+    margin-left: 50px;
+    font-weight: bold;
 }
 
 .image-section {
-    background-image: url(https://pixabay.com/get/g502f4931feaf2b227be4db3373f263199f37d76dc9f878a5c21b78714bbe68b054736d2183b8145aaa4c41d6ce216dcfb6cc99451f6fddcbd027f8cf523523f3_1280.jpg);
+    background-image: url(./keyboard-5017973_1280.jpg);
     background-size: 100% 100%;
+    height: 100%;
     width: 100%;
-    height: 800px;
 }
 
 .card {
@@ -97,20 +86,19 @@ body{
 /* elements */
 .titles {
     text-align: center;
-    margin-top: 13%;
-    padding: 0px 10%;
+    padding: 15% 10%;
 
     
 }
 
-.btn {
-    justify-content: center;
+.center {
+    text-align: center;
 }
 
 .btns {
     background-color: white;
     color: black;
-    margin-top: 20px;
+    margin: 20px;
     border: 0;
     padding: 13px;
     border-radius: 20px;
@@ -122,3 +110,29 @@ body{
     width: 90%;
     height: 100%;
 }
+@media (min-width: 768px) { 
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-3 {
+        width: 25%;
+        padding: 5% 3%;
+        box-sizing: border-box;
+    }
+    
+    .col-5 {
+        width: 41.66%;
+    }
+    
+    .col-7 {
+        width: 58.33%;
+        padding-left: 5%;
+
+
+    }
+
+    .center{
+        text-align: left;
+    }
+ }
