@@ -1,0 +1,124 @@
+/* generic clases */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 2rem;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(9, 11, 12);
+    color: white;
+}
+
+
+
+
+/* layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+.col-3 {
+    width: 25%;
+    padding: 20px;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+/* components */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo {
+    height: 60px;
+    width: 80px;
+}
+
+.nav-bar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-bar a {
+    color: white;
+    padding-left: 50px;
+}
+
+.image-section {
+    background-image: url(https://pixabay.com/get/g502f4931feaf2b227be4db3373f263199f37d76dc9f878a5c21b78714bbe68b054736d2183b8145aaa4c41d6ce216dcfb6cc99451f6fddcbd027f8cf523523f3_1280.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 100%;
+
+}
+
+.text-section {
+    padding: 80px;
+
+}
+/* elements */
+.titles {
+    text-align: center;
+    margin-top: 13%;
+    padding: 0px 10%;
+
+    
+}
+
+.btn {
+    justify-content: center;
+}
+
+.btns {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border: 0;
+    padding: 13px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+
+.photo {
+    width: 90%;
+    height: 100%;
+}
