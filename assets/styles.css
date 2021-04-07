@@ -23,7 +23,9 @@ body{
     color: white;
 }
 
-
+.center {
+    text-align: center;
+}
 
 
 /* layout */
@@ -60,8 +62,9 @@ body{
 
 .nav-bar a {
     color: white;
-    margin-left: 50px;
-    font-weight: bold;
+    margin-left: 10px;
+    font-size: 0.8rem;
+
 }
 
 .image-section {
@@ -87,13 +90,14 @@ body{
 .titles {
     text-align: center;
     padding: 15% 10%;
-
-    
+    font-size: 0.8rem;
 }
 
-.center {
+.btn {
     text-align: center;
 }
+
+
 
 .btns {
     background-color: white;
@@ -134,5 +138,16 @@ body{
 
     .center{
         text-align: left;
+    }
+
+    .nav-bar a {
+
+        margin-left: 50px;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .titles {
+        font-size: 1rem;
     }
  }
